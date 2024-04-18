@@ -18,8 +18,6 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: 'google-github-actions/auth@v2'
-        with:
-          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
       
       # configure gcloud `setup-gcloud` automatically
       - id: 'auth'
