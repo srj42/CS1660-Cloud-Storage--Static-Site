@@ -34,3 +34,4 @@ jobs:
           path: 'public'
           destination: 'srj42bucket1'
           parent: false
+          process_gcloudignore: false
